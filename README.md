@@ -54,11 +54,3 @@ python -m coverage html
 ```
 
 Open `htmlcov/index.html` in your browser to see the HTML coverage report.
-
-Notes and next steps
---------------------
-- If you prefer fixtures over class-level injection, I can convert tests to use shared fixtures directly as function arguments and add parametrized tests to reduce duplication while keeping the total tests at 15.
-- I can also add a short `Makefile` or `scripts` section in this README to simplify running tests and coverage for other contributors.
-
-If you want, I can commit these changes and generate the `coverage html` output here and attach the `htmlcov` directory snapshot.
-
